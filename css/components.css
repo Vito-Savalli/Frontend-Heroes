@@ -1,0 +1,69 @@
+/* HOME - CARD BOX */
+.card-box {
+  position: relative;
+  opacity: 1;
+  background-color: var(--grey-tint);
+  height: 44rem;
+  width: 38rem;
+  border-radius: 20px;
+  box-shadow: 1px 2px 12px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--primary);
+  overflow: hidden;
+}
+
+.card__title {
+  color: var(--white);
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  width: 70%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  transition: all 0.5s;
+}
+
+.card__title:hover {
+  transform: translateX(-50%) scale(1.13);
+}
+
+.card__bg {
+  background-color: var(--background);
+  height: 20rem;
+  width: 100%;
+  position: relative;
+}
+
+.card__details {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--white);
+  height: 26rem;
+  width: 90%;
+  border-radius: 6px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card__details-title:link,
+.card__details-title:visited {
+  text-decoration: none;
+  color: var(--background);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.card__details-title:hover,
+.card__details-title:active {
+  color: var(--primary);
+  transition: all 0.3s;
+}
+
+.card__details-text {
+  font-size: 1.4rem;
+  color: grey;
+}

@@ -1,0 +1,146 @@
+/* TITLE */
+.pages__title-box {
+  display: inline-block;
+  margin-top: 18rem;
+  margin-left: 9rem;
+  padding: 0.8rem;
+  width: 65%;
+}
+
+.pages__title {
+  color: var(--background);
+  font-size: 5.8rem;
+}
+
+.pages__underlined {
+  background-color: var(--primary);
+  width: 50%;
+  height: 4px;
+  margin-top: 4rem;
+  margin-left: 0.6rem;
+}
+
+/* MAIN CONTAINER */
+.pages__container {
+  margin-top: 4rem;
+  display: flex;
+  width: 100%;
+  padding-left: 11rem;
+  gap: 2rem;
+}
+
+/* RELATED */
+.pages__related {
+  width: 25%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.related__title {
+  font-size: 4rem;
+  align-self: center;
+  font-weight: 500;
+  color: var(--background);
+}
+
+.related__post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.related__post-img {
+  background-color: var(--background);
+  height: 18rem;
+  width: 100%;
+  position: relative;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+}
+
+.related__post-title {
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+}
+
+.related__post-subtitle {
+  font-size: 3rem;
+  align-self: flex-start;
+  color: var(--primary);
+}
+
+/* CONTENT */
+.pages__content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 6.2rem;
+  line-height: 1.4;
+  color: var(--background);
+  font-family: "inter";
+}
+
+.pages__article-title {
+  color: var(--primary);
+  font-size: 3.4rem;
+}
+
+.pages__article-underlined {
+  width: 65%;
+  height: 2px;
+  color: var(--grey);
+  background-color: var(--grey);
+  margin: 4rem auto;
+}
+
+.pages__article-intro {
+  margin-top: 4rem;
+}
+
+.pages__article {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2.2rem;
+}
+
+.pages__article-img {
+  display: inline-block;
+  width: 60rem;
+  height: 30rem;
+  margin-bottom: 2.4rem;
+  margin-top: 1rem;
+  filter: brightness(70%);
+  border-radius: 1px;
+}
+
+.pages__article-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.pages__article-link:link,
+.pages__article-link:visited {
+  margin-top: 1.2rem;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.pages__article-link:hover,
+.pages__article-link:active {
+  color: var(--primary-light);
+  transition: color 0.3s;
+}
+
+.pages__article-last {
+  margin-bottom: 5rem;
+}

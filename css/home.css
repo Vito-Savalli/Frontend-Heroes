@@ -1,0 +1,75 @@
+/* HERO */
+.section-hero {
+  height: 95vh;
+  color: var(--background);
+  background-color: var(--background);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10rem 0;
+  border-top: 1px solid grey;
+}
+
+.hero__title {
+  font-size: 6.6rem;
+  width: 50%;
+}
+
+.hero__animation {
+  font-size: 7rem;
+  border: 1px solid black;
+  padding: 6rem;
+  transform: translateX(-10rem);
+}
+
+/* MAIN CONT */
+.main-container {
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+}
+
+/* SECTION */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.section__text-box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-self: center;
+}
+
+.section__card-box {
+  opacity: 1;
+  background-color: var(--background);
+  height: 35rem;
+  width: 45rem;
+  border-radius: 20px;
+  box-shadow: 1px 2px 12px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--primary);
+}
+
+.section__title {
+  font-size: 4.6rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section__text {
+  font-size: 2rem;
+}
+
+.section__last {
+  margin-bottom: 8rem;
+}

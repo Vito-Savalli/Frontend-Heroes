@@ -1,0 +1,41 @@
+.guides__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guides__title-box {
+  display: inline-block;
+  padding: 0.8rem;
+  margin: 18rem auto 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.guides__title {
+  color: var(--background);
+  font-size: 9rem;
+}
+
+.guides__box {
+  padding-left: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
+  margin-top: 12rem;
+  margin-bottom: 16rem;
+  row-gap: 6rem;
+}
+
+.guides__underlined {
+  margin: 0 auto;
+  background-color: var(--primary);
+  width: 30rem;
+  height: 4px;
+  margin-top: 1rem;
+}

@@ -1,10 +1,13 @@
 # Frontend-Heroes
-Frontend-Heroes help you learn code and kickstart your career.
 
-Frontend-Heroes is a website I built through my journey learning web development.
+Welcome to Frontend Heroes, a blog dedicated to the world of frontend web development .<br /> This website features a collection of guides and articles on programming and related topics, all designed to help you improve your skills and advance your career as a frontend developer.<br /> Built using HTML, CSS, and JavaScript, Frontend Heroes is the perfect resource for frontend enthusiasts of all levels. <br /> Join the community and become a Frontend Hero today!
 
-Building Frontend-Heroes was the way for me to gather all the knowledge
-I have acquired since I start diving into code.
+[Visit Frontend-Heroes &#8594;](https://vito-savalli.github.io/Frontend-Heroes/)
 
-I am happy to share what I have learned so far with my surroudings
-and help newcomers to follow the same path I took two years ago.
+## Let's Connect !
+
+Say hi ! I'm always excited to connect with new people !
+
+[My Linkedin &#8594;](https://www.linkedin.com/in/vito-savalli/)  
+&#9993; : vito.savallimunoz@gmail.com  
+&#128222; : +33660696138
